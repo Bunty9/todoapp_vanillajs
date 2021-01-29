@@ -5,18 +5,18 @@
 }
 
 body {
-    background-color: #cfcfcf;
-    color: #444;
+    background-color: #111111;
+    color: rgb(177, 177, 177);
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     min-height: 100vh;
 }
 
 h1 {
-    color: rgb(179, 131, 226);
+    color: rgb(43, 255, 0);
     font-size: 10rem;
     text-align: center;
     opacity: 0.4;
@@ -26,42 +26,45 @@ form {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     width: 400px;
+    border-radius: 25px;
 }
 
 .input {
     border: none;
-    color: #444;
+    color: rgb(119, 119, 119);
     font-size: 2rem;
     padding: 1rem 2rem;
     display: block;
     width: 100%;
+    border-radius: 15px;
 }
 
 .input::placeholder {
-    color: #d5d5d5;
+    color: #acacac;
 }
 
 .todos {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
 
 .todos li {
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #070707;
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem 2rem;
+    color: #0f0f0f;
 }
 
 .todos li.completed {
-    color: #b6b6b6;
+    color: #4e4e4e;
     text-decoration: line-through;
 }
 
 small {
-    color: #b5b5b5;
+    color: #949494;
     margin-top: 3rem;
     text-align: center;
 }
